@@ -3,7 +3,7 @@
 # Song information
 TITLE           "Moonlight Mansion"
 AUTHOR          "WoW64"
-COPYRIGHT       "HALå§ãÜèä"
+COPYRIGHT       "HAL Lab."
 
 # Song comment
 COMMENT ""
