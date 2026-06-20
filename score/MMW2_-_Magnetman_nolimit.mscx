@@ -1178,7 +1178,11 @@
         <height>10</height>
         <Text>
           <style>Title</style>
-          <text>Rockman World 2 - Magnetman</text>
+          <text><font face="BN5DSEU Font Bold Condensed"></font>Mega Man II - Magnet Man Stage</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text><font face="游ゴシック Medium"></font>山崎 憲司</text>
           </Text>
         </VBox>
       <Measure>
@@ -11844,7 +11848,8 @@
       <Measure>
         <voice>
           <Chord>
-            <durationType>whole</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -11858,12 +11863,28 @@
               <tpc>7</tpc>
               </Note>
             </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>8</tpc>
+              </Note>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>7</tpc>
+              </Note>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Chord>
-            <durationType>whole</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -11875,6 +11896,21 @@
             <Note>
               <pitch>73</pitch>
               <tpc>9</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>61</pitch>
+              <tpc>9</tpc>
+              </Note>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           </voice>
