@@ -494,36 +494,41 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-7/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-7/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>80</pitch>
+              <pitch>68</pitch>
               <tpc>10</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              </Note>
+            <Note>
+              <Bend>
+                <point time="0" pitch="0" vibrato="0"/>
+                <point time="15" pitch="100" vibrato="0"/>
+                <point time="60" pitch="100" vibrato="0"/>
+                </Bend>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           </voice>
@@ -541,32 +546,32 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>7/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>7/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>80</pitch>
+              <pitch>68</pitch>
               <tpc>10</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -599,6 +604,17 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -619,6 +635,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -670,6 +694,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalDoubleFlat</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -680,8 +707,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>7</tpc>
+              <pitch>69</pitch>
+              <tpc>5</tpc>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -694,10 +721,15 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
               </Note>
             <Note>
+              <Bend>
+                <point time="0" pitch="0" vibrato="0"/>
+                <point time="15" pitch="100" vibrato="0"/>
+                <point time="60" pitch="100" vibrato="0"/>
+                </Bend>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -708,8 +740,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           </voice>
@@ -727,8 +759,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>7</tpc>
+              <pitch>69</pitch>
+              <tpc>5</tpc>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -739,8 +771,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -751,8 +783,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -800,6 +832,17 @@
               <tpc>8</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <measures>2</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -956,6 +999,14 @@
               <tpc>7</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -1008,6 +1059,16 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -1053,6 +1114,13 @@
       <Measure>
         <startRepeat/>
         <voice>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -1114,36 +1182,41 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-7/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-7/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>80</pitch>
+              <pitch>68</pitch>
               <tpc>10</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              </Note>
+            <Note>
+              <Bend>
+                <point time="0" pitch="0" vibrato="0"/>
+                <point time="15" pitch="100" vibrato="0"/>
+                <point time="60" pitch="100" vibrato="0"/>
+                </Bend>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1161,32 +1234,32 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>7/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>7/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>80</pitch>
+              <pitch>68</pitch>
               <tpc>10</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -1219,6 +1292,17 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -1239,6 +1323,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -1290,6 +1382,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalDoubleFlat</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -1300,8 +1395,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>7</tpc>
+              <pitch>69</pitch>
+              <tpc>5</tpc>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -1314,10 +1409,15 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
               </Note>
             <Note>
+              <Bend>
+                <point time="0" pitch="0" vibrato="0"/>
+                <point time="15" pitch="100" vibrato="0"/>
+                <point time="60" pitch="100" vibrato="0"/>
+                </Bend>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -1328,8 +1428,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1347,8 +1447,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>7</tpc>
+              <pitch>69</pitch>
+              <tpc>5</tpc>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -1359,8 +1459,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -1371,8 +1471,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -1420,6 +1520,17 @@
               <tpc>8</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <measures>2</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1576,6 +1687,14 @@
               <tpc>7</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -1628,6 +1747,16 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -1672,6 +1801,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -1733,36 +1869,41 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-7/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-7/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>80</pitch>
+              <pitch>68</pitch>
               <tpc>10</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              </Note>
+            <Note>
+              <Bend>
+                <point time="0" pitch="0" vibrato="0"/>
+                <point time="15" pitch="100" vibrato="0"/>
+                <point time="60" pitch="100" vibrato="0"/>
+                </Bend>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1780,32 +1921,32 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>7/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>7/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>80</pitch>
+              <pitch>68</pitch>
               <tpc>10</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -1838,6 +1979,17 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -1858,6 +2010,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -1909,6 +2069,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalDoubleFlat</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -1919,8 +2082,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>7</tpc>
+              <pitch>69</pitch>
+              <tpc>5</tpc>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -1933,10 +2096,15 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
               </Note>
             <Note>
+              <Bend>
+                <point time="0" pitch="0" vibrato="0"/>
+                <point time="15" pitch="100" vibrato="0"/>
+                <point time="60" pitch="100" vibrato="0"/>
+                </Bend>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -1947,8 +2115,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1966,8 +2134,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>7</tpc>
+              <pitch>69</pitch>
+              <tpc>5</tpc>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -1978,8 +2146,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -1990,8 +2158,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -2039,6 +2207,17 @@
               <tpc>8</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <measures>2</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2195,6 +2374,14 @@
               <tpc>7</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -2247,6 +2434,16 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -2291,6 +2488,23 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -2307,6 +2521,13 @@
               <tpc>8</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -2428,18 +2649,36 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             <Note>
-              <pitch>73</pitch>
-              <tpc>9</tpc>
+              <pitch>71</pitch>
+              <tpc>7</tpc>
               </Note>
             <Note>
-              <pitch>78</pitch>
-              <tpc>8</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Bend>
+                <point time="0" pitch="0" vibrato="0"/>
+                <point time="15" pitch="125" vibrato="0"/>
+                <point time="60" pitch="125" vibrato="0"/>
+                </Bend>
+              <pitch>76</pitch>
+              <tpc>6</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -2455,6 +2694,13 @@
               <tpc>9</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -2737,6 +2983,16 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -2753,6 +3009,13 @@
               <tpc>8</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -2874,18 +3137,36 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             <Note>
-              <pitch>73</pitch>
-              <tpc>9</tpc>
+              <pitch>71</pitch>
+              <tpc>7</tpc>
               </Note>
             <Note>
-              <pitch>78</pitch>
-              <tpc>8</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Bend>
+                <point time="0" pitch="0" vibrato="0"/>
+                <point time="15" pitch="125" vibrato="0"/>
+                <point time="60" pitch="125" vibrato="0"/>
+                </Bend>
+              <pitch>76</pitch>
+              <tpc>6</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <Vibrato>
+              <subtype>guitarVibrato</subtype>
+              </Vibrato>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -2901,6 +3182,13 @@
               <tpc>9</tpc>
               </Note>
             </Chord>
+          <Spanner type="Vibrato">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
